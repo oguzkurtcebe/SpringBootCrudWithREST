@@ -14,3 +14,5 @@ Web paketi altındaki CrudRestController sınıfı is rest requestleri karşıla
 
 Security paketi altındaki SecurityConfiguration sınıfında ise Spring security ile ilgili ayarlar ve http basic auth özelliği kullanıarak basit bi yetkilendirme yapılmıştır.
 
+Create update delete işlemleri ve aynı zamanda tüm kayıtlarla erişim için sorgu,aynı soyadına sahip kişilere yönelik sorgu ve id ile sorgu işlemleri mevcuttur
+
