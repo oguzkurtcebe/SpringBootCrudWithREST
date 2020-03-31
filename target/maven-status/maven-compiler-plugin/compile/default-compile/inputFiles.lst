@@ -1,0 +1,12 @@
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\web\CrudRestController.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\model\User.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\web\ManagerController.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\dao\jpa\UserRepository.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\exception\PersonNotFoundException.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\CrudApplication.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\dao\jpa\PersonRepositoryJpaImlp.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\security\SecurityConfiguration.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\service\RestServiceImpl.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\dao\PersonRepository.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\model\Person.java
+C:\Users\oguz\Documents\workspace-sts-3.9.4.RELEASE\SpringBootRest\src\main\java\com\oguzkurtcebe\crud\service\RestService.java
