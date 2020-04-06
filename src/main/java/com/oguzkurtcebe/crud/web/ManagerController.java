@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.oguzkurtcebe.crud.dao.jpa.ManagerRepository;
 import com.oguzkurtcebe.crud.model.Manager;
 
-
 @RestController
 @RequestMapping("/managers")
 public class ManagerController {
@@ -21,26 +20,30 @@ public class ManagerController {
 	private BCryptPasswordEncoder bcryptPasswordEncoder;
 	@Autowired
 	private ManagerRepository managerRepository;
-	
-	
+
 	public ManagerController(ManagerRepository managerRepository, BCryptPasswordEncoder bcryptPasswordEncoder) {
-		
+
 		this.managerRepository = managerRepository;
 		this.bcryptPasswordEncoder = bcryptPasswordEncoder;
 	}
 
-
-
-	@RequestMapping(value="sign-up",method=RequestMethod.POST)
+	@RequestMapping(value = "sign-up", method = RequestMethod.POST)
 	public ResponseEntity<?> signUp(@RequestBody Manager manager) {
-		
+
 		try {
 			manager.setPassword(bcryptPasswordEncoder.encode(manager.getPassword()));
-		managerRepository.save(manager);
-		return ResponseEntity.ok().build();
+			managerRepository.save(manager);
+			return ResponseEntity.ok(200);
 		} catch (Exception e) {
 			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
 		}
-		
+
 	}
+
+	@RequestMapping(value="sign-In",method=RequestMethod.POST)
+	public ResponseEntity<?> signIn(@RequestBody Manager manager) {
+		
+		return null;
+
 }
+	}
